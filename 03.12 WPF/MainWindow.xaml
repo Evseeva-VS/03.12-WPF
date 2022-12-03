@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_03._12_WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="MainWindow" Height="250" Width="388">
+    <Grid Margin="0,0,0,18">
+        <Button Content="Обновить данные" HorizontalAlignment="Center" Margin="0,168,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Label x:Name="WeatherFrom" Content="Погода за:" HorizontalAlignment="Left" Margin="45,35,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Season" Content="Сезон:" HorizontalAlignment="Left" Margin="222,35,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="FeelsLike"  Content="Ощущается как:" HorizontalAlignment="Left" Margin="222,66,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Temp" Content="Температура:" HorizontalAlignment="Left" Margin="45,66,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Name" Content="Место:" HorizontalAlignment="Left" Margin="45,97,0,0" VerticalAlignment="Top"/>
+
     </Grid>
 </Window>
